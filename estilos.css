@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(126, 243, 188);
+}
+
+.titulo{
+    text-align: center;
+    color:rgb(66, 46, 248);
+    font-size: 2rem;
+}
+.reloj{
+    width: 15rem;
+    height: 15rem;
+    border:5px solid rgb(57, 43, 184);
+    border-radius: 50%;
+    box-shadow: inset 0 0 20px 0 rgb(57, 43, 184);
+    color: blue;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor_contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

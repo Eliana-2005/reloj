@@ -1,0 +1,29 @@
+.contenido{
+    display:flex;
+    font-size: 20px;
+    
+
+}
+
+h2{
+    font-size: 25px;
+    text-align:center;
+
+}
+p{
+    text-align:justify;
+}
+
+.imagen{
+    width: 400px;
+    height: 400px;
+    
+    
+}
+
+.vinculos{
+    text-decoration: none;
+    color: black;
+    display:flex;
+}
+
