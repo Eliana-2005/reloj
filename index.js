@@ -1,4 +1,4 @@
-
+function tiempoReloj(){
 var fechaActual =new Date ();
 var horas =fechaActual.getHours();
 var minutos =fechaActual.getMinutes();
@@ -10,4 +10,6 @@ console.log (segundos);
 
 var conexion =document.querySelector('#reloj')
 var horaReloj=horas +":" +minutos+ ":"+ segundos;
-conexion.innerHTML= horaReloj;
+conexion.innerHTML= horaReloj;}
+
+setInterval(tiempoReloj,1000);
